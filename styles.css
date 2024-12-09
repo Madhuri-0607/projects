@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+
+input[type="text"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px
+}
+button{
+    background-color: rgb(252, 134, 164);
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: rgb(248, 189, 228);
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    
+}
